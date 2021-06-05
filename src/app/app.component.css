@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+
+.main-nav{
+    display: flex;
+    list-style-type: none;
+}
+
+.sticky{
+    position: fixed;
+}
+
+
+.red{
+    background: #520c0ccb; /* Old browsers */
+    background: -moz-linear-gradient(top, #520c0ccb 0%, #520c0ccb 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#520c0ccb), color-stop(100%,#cf0404)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #520c0ccb 0%,#520c0ccb 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #520c0ccb 0%,#520c0ccb 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #520c0ccb 0%,#520c0ccb 100%); /* IE10+ */
+    background: linear-gradient(top, #520c0ccb 0%,#520c0ccb 100%); /* W3C */
+}
