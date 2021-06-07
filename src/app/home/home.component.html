@@ -1,1 +1,15 @@
-<p>Welcome to the home page!</p>
+<div>
+    <h1>Home Management</h1>
+</div>
+<div class="container">
+    <p>You've clicked <span (click)="countClicks()">this</span> {{counter}} times.</p>
+</div>
+<div>
+    <p>
+        Username: <input [(ngModel)]="inputUsername" type="text">
+    </p>
+    <p>
+        Password: <input [(ngModel)]="inputPassword" type="text">
+    </p>
+    <strong>Your input: {{inputUsername}}, {{inputPassword}}</strong>
+</div>

@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  inputUsername:String = "hello world";
+  inputPassword:String = "hello world";
+  counter:number = 0
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  countClicks(){
+    this.counter += 1;
+  }
 }
