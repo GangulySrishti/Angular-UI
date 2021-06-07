@@ -7,7 +7,6 @@ import {CustomerComponent} from './customer/customer.component';
 import {TestComponent} from './test/test.component';
 
 const routes: Routes = [
-
   {path:'home', component: HomeComponent},
   {path:'admin', component: AdminComponent},
   {path:'lab', component: LabComponent},
